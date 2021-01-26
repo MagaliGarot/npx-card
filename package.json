@@ -1,0 +1,30 @@
+{
+  "name": "npx-card",
+  "version": "1.0.0",
+  "description": "card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagaliGarot/npx-card.git"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "magaligarot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagaliGarot/npx-card/issues"
+  },
+  "homepage": "https://github.com/MagaliGarot/npx-card#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "node-emoji": "^1.10.0",
+    "ora": "^5.3.0"
+  }
+}
