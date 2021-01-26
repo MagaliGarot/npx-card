@@ -14,4 +14,4 @@ My npx visit card
 
 You can look it with npx:
 
-npx @magaligarot/npx-card
+npx @magaligarot/npxcard

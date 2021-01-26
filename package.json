@@ -1,6 +1,6 @@
 {
-  "name": "npx-card",
-  "version": "1.0.0",
+  "name": "@magaligarot/npxcard",
+  "version": "1.0.1",
   "description": "card",
   "main": "index.js",
   "scripts": {
