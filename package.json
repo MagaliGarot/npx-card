@@ -1,5 +1,5 @@
 {
-  "name": "cardmagaligarot",
+  "name": "npx-card",
   "version": "1.0.0",
   "description": "card",
   "main": "index.js",
@@ -28,6 +28,6 @@
     "ora": "^5.3.0"
   },
   "bin": {
-    "cardmagaligarot": "./index.js"
+    "npx-card": "./index.js"
   }
 }
