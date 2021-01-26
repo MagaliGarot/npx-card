@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const chalk = require("chalk");
 const boxen = require("boxen");
-const emoji = require("node-emoji")
+const emoji = require("node-emoji");
 const { white } = require("chalk");
 
 // Text + chalk definitions
@@ -9,13 +9,14 @@ const data = {
     name: chalk.white("                   Magali Garot"),
     work: chalk.white("Junior Web Developer"),
     email: chalk.cyan("magali.garot@gmail.com"),
-    github: chalk.cyan("https://github.com/MagaliGarot ❤️"),
+    github: chalk.cyan("https://github.com/MagaliGarot"),
     linkedin: chalk.cyan("https://www.linkedin.com/in/magali-garot/"),
     labelName: chalk.white.bold("  Name:"),
-    labelWork: chalk.white.bold("  Work:"),
-    labelEmail: chalk.white.bold("  Email:"),
-    labelGitHub: chalk.white.bold("  GitHub:"),
-    labelLinkedIn: chalk.white.bold("  LinkedIn:"),
+    labelWork: chalk.white.bold("💻  Work:"),
+
+    labelEmail: chalk.white.bold("📧  Email:"),
+    labelGitHub: chalk.white.bold("🐈  GitHub:"),
+    labelLinkedIn: chalk.white.bold("📄  LinkedIn:"),
 };
 
 const NEWLINE = "\n";
@@ -37,7 +38,6 @@ console.log(
             ].join(NEWLINE),
             {
                 padding: 1,
-                margin: 1,
                 borderStyle: "double",
                 backgroundColor: "#135D7D",
             },
